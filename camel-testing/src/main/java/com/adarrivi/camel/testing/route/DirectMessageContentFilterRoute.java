@@ -1,4 +1,4 @@
-package com.adarrivi.camel.testing.direct;
+package com.adarrivi.camel.testing.route;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.model.ChoiceDefinition;

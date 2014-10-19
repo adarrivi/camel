@@ -1,4 +1,4 @@
-package com.adarrivi.camel.testing.direct;
+package com.adarrivi.camel.testing.route;
 
 import org.apache.camel.EndpointInject;
 import org.apache.camel.Produce;
@@ -8,7 +8,9 @@ import org.apache.camel.component.mock.MockEndpoint;
 import org.apache.camel.test.junit4.CamelTestSupport;
 import org.junit.Test;
 
-public class DirectMessageContentTest extends CamelTestSupport {
+import com.adarrivi.camel.testing.route.DirectMessageContentFilterRoute;
+
+public class DirectMessageContentFilterRouteTest extends CamelTestSupport {
 
 	private static final String FROM_ENDPOINT = "direct:in";
 
